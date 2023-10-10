@@ -2,7 +2,7 @@
 
 $id = $_GET['id'];
 // Connect to the database.
-$db = mysqli_connect('localhost', 'root', '', 'food');
+$db = mysqli_connect('foodcabin-server', 'euowldbmel', '70N7T62JL66ZI20A$', 'foodcabin');
 
 // Create a SQL DELETE statement.
 $sql = "DELETE FROM food_items WHERE id = $id";

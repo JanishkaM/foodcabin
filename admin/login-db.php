@@ -1,7 +1,7 @@
 <?php
 
 // Connect to the database.
-$db = new PDO('mysql:host=localhost;dbname=food', 'root', '');
+$db = new PDO('mysql:host=foodcabin-server;dbname=foodcabin', 'euowldbmel', '70N7T62JL66ZI20A$');
 
 // Get the username and password from the input fields.
 $username = $_POST['username'];

@@ -1,0 +1,9 @@
+Server name foodcabin-server
+EngineMySQL - Flexible Server
+Database name foodcabin
+Region
+East US
+Username
+euowldbmel
+Password
+70N7T62JL66ZI20A$
