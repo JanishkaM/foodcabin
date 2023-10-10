@@ -1,12 +1,11 @@
 <?php
 
 // Connect to the database
-$servername = "foodcabin-server";
-$username = "euowldbmel";
-$password = "70N7T62JL66ZI20A$";
-$dbname = "foodcabin";
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12652279";
+$password = "6X5iT57XbU";
+$dbname = "sql12652279";
 
 // Create a new PDO connection
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-echo 'hello'
 ?>
