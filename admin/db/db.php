@@ -8,5 +8,5 @@ $dbname = "foodcabin";
 
 // Create a new PDO connection
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-
+echo 'hello'
 ?>
