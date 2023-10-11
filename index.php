@@ -21,7 +21,7 @@ include("nav.php")
     </div>
   </section>
   <section class="latest">
-    <h2 class="text-center mb-4">Latest Food & Baverages</h2>
+    <h2 class="text-center mb-4">Latest Food & Beverages</h2>
     <div class="container">
       <div class="row row-cols-1 row-cols-md-3">
 
