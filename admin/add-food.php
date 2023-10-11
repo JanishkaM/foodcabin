@@ -6,17 +6,6 @@ include("header.php")
 // Start a new session.
 session_start();
 
-// Check if the user is logged in.
-if (!isset($_SESSION['isLoggedIn']) || !$_SESSION['isLoggedIn']) {
-  // The user is not logged in.
-  // Redirect the user to the login page.
-  header('Location: ../login.php');
-  exit;
-}
-
-// The user is logged in.
-// Display the admin page.
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
