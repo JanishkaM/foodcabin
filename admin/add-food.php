@@ -1,12 +1,6 @@
 <?php
 include("header.php")
 ?>
-<?php
-
-// Start a new session.
-session_start();
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
